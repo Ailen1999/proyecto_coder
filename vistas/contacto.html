@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
     <link rel="stylesheet" href="../css/estilos.css">
     <script src="https://kit.fontawesome.com/33b1bf615f.js" crossorigin="anonymous"></script>
     <meta charset="UTF-8">
@@ -9,95 +11,118 @@
     <title>Contacto</title>
 </head>
 <body>
-    <header class="header">
-        <a href="../index.html">
-            <img class="header_logo" src="../img/logo.jpeg" alt="logo de mi empresa">
-              
+  <header>
+      
+    <nav class="navbar navbar-expand-lg header">
+        <div class="container-fluid">
 
-        </a>
-        <nav> 
-            <ul class="header_list"> 
-                <li class="header_item">
-                    <a href="../index.html">INICIO</a>
-                </li>
-                <li class="header_item">
-                    <a href="servicios.html">SERVICIOS</a>
-                </li>
-                <li class="header_item">
-                    <a href="quienes_somos.html">QUIENES SOMOS</a>
-                </li>
-                <li class="header_item">
-                    <a href="sucursales.html">SUCURSALES</a>
-                </li>
-                <li class="header_item">
-                    <a href="contacto.html">CONTACTO</a>
-                </li>
+          
+          <img class="header_logo" src="../img/logo.jpeg" alt="logo de mi empresa">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+        
+          <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
+            <ul class="navbar-nav align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" href="../index.html">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./servicios.html">SERVICIOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./quienes_somos.html">QUIENES SOMOS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./sucursales.html">SUCURSALES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./contacto.html">CONTACTO</a>
+              </li>
             </ul>
-        </nav>
-    </header>
-    <div class="fondo_contacto">
+          </div>
+       
+        </div>
+      </nav>
+</header>
+    <main class="pb-3" style="background-color: #1B4F72;">
+<div class="container">
 
-    <div class="row"> 
-        <h1>Contacto</h1>
-
-    </div>
-    <div class="row">
-        <form action="#" method="GET" enctype="multipart/form-data" class="form">
-            <fieldset>
-                <div class="row">
-                    <div class ="column">
-                        <label for="name">Nombre</label>
-                        <input type="text" name="name" id="name">
-                    </div> 
-        
-                    <div class ="column">
-                        <label for="email">Email</label>
-                        <input type="text" name="email" id="email">
-                    </div>
-                </div>
-                <div class="row">
-    
-                <div class ="column">
-                    <label for="tel">Telefono</label>
-                    <input type="text" name="tel" id="tel"</input>
-                </div>   
-    
-                <div class ="column">
-                    <label for="asunto">Asunto</label>
-                    <input type="text" name="asunto" id="asunto">
-                </div>  
-            </div> 
-            <div class="row">
-                <div class ="column">
-                    <label for="consulta">Consulta</label>
-                    <textarea name="consulta" id="consulta"></textarea>
-                  
-                </div> 
-            </div>
-            <div class="row">
-            <div>
-                <input type="submit" value="Enviar">
+<div class="row pt-4"> 
+<div class="col-6">
+  <h3>Envianos tu consulta</h3> 
+    <form>
+        <div class="mb-3">
             
+          <label for="nombre_usuario" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="nombre_usuario" aria-describedby="nombre">
+        </div>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+        <div class="mb-3">
+          <label for="telefono_usuario" class="form-label">Telefono</label>
+          <input type="text" class="form-control" id="telefono_usuario">
+        </div>
+        <div class="mb-3">
+            <label for="asunto" class="form-label">Asunto</label>
+            <input type="text" class="form-control" id="asunto">
+          </div>
+          <div class="mb-3">
+            <label for="mensaje" class="form-label">Mensaje</label>
+            <textarea name="consulta" id="mensaje" class="form-control"></textarea>
+
+        
+          </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </form>
+</div>
+</div>
+</div>
+
+    </main >
+    <footer class="pt-2">
+
+      <div class="container text-body-tertiary ">
+          <div class="row justify-content-center">
+          <div class="col-md-12 text-center">
+          <h2 class="footer-heading"><a href="#" class="logo" style="color: #2C3E50;" >Maira Rodriguez</a></h2>
+          <p class="menu">
+          <a href="../index.html" class="text-body-tertiary p-2">INICIO</a>
+          <a href="./servicios.html"  class="text-body-tertiary  p-2" >SERVICIOS</a>
+          <a  href="./quienes_somos.html"  class="text-body-tertiary p-2">QUIENES SOMOS</a>
+          <a href="./sucursales.html"  class=" text-body-tertiary p-2">SUCURSALES</a>
+          <a href="#"  class="text-body-tertiary p-2">CONTACTO</a>
+          </p>
+          <ul class="ftco-footer-social p-0">
+          <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter"><span class="ion-logo-twitter"></span></a></li>
+          <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook"><span class="ion-logo-facebook"></span></a></li>
+          <li class="ftco-animate"><a href="#" data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram"><span class="ion-logo-instagram"></span></a></li>
+          </ul>
+          </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-3 text-center">
+              <p><i class="fa-brands fa-whatsapp"></i> WhatsApp 1125676523</p>
             </div>
-        </div>
-            </fieldset>
-    
-        </form>
-    </div>
-    </div>
-    <footer>
-        <div class="info">
-            <h2> Contacto</h2>
-            <p><i class="fa-brands fa-whatsapp"></i> WhatsApp 1125676523</p>
-            <p><i class="fa-brands fa-instagram"></i> Instragram MairaRodriguez.19</p>
-        
-        </div>
-        <div class="ubicacion">
-            <h2> Encontranos en</h2>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.4445280499767!2d-58.3956991849723!3d-34.74439338042328!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcd2eacc59533f%3A0x33b550ac281af8f6!2sAv.%20Adolfo%20Alsina%2C%20Banfield%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1671467570039!5m2!1ses-419!2sar" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
-        
-        </div>
-        
-        </footer>
+            <div class="col-3 text-center">
+              <p><i class="fa-brands fa-instagram"></i> Instragram MairaRodriguez.19</p>
+            </div>
+
+          </div>
+          <div class="row mt-2">
+          <div class="col-md-12 text-center">         
+          <p class="copyright">
+          Copyright ©<script>document.write(new Date().getFullYear());</script> All rights reserved 
+          </p>
+          </div>
+          </div>
+          </div>
+  </footer>
+ 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
 </body>
 </html> 
