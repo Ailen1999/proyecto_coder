@@ -1,0 +1,23 @@
+.header{
+    background-color: #C39BD3;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding: 0.2rem 1rem;
+  
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    &__logo{
+        display: inline-block;
+        width: 200px}
+        
+        ul li{
+            list-style: none;
+        }
+        
+        a{
+            text-decoration:none;
+        }
+}
