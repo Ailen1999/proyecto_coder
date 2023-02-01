@@ -28,5 +28,8 @@ footer {
     list-style: none; }
 
     .div-imagen-fondo {
-      background-image: url("/img/nuevo-carrousel-1.png");
+      background-image: url("../img/fondo-sucursal.jpg"); 
+      background-repeat: no-repeat;
+      background-size: auto;
+    
        }
