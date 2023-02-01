@@ -27,5 +27,6 @@ footer {
   footer ul li {
     list-style: none; }
 
-.main {
-  background-color: black; }
+    .div-imagen-fondo {
+      background-image: url("/img/nuevo-carrousel-1.png");
+       }
