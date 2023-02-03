@@ -27,9 +27,7 @@ footer {
   footer ul li {
     list-style: none; }
 
-    .div-imagen-fondo {
-      background-image: url("../img/fondo-sucursal.jpg"); 
-      background-repeat: no-repeat;
-      background-size: auto;
-    
-       }
+.fondo {
+  background-image: url("../img/quiza.png");
+  background-repeat: no-repeat;
+  background-size: auto; }
