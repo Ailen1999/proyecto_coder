@@ -1,3 +1,6 @@
+* {
+  font-style: italic; }
+
 .header {
   background-color: #C39BD3;
   padding-bottom: 1rem;
@@ -15,6 +18,9 @@
   .header a {
     text-decoration: none; }
 
+* {
+  font-style: italic; }
+
 footer {
   background-color: #C39BD3; }
   footer .footer-heading {
@@ -26,6 +32,9 @@ footer {
     margin-bottom: 30px; }
   footer ul li {
     list-style: none; }
+
+* {
+  font-style: italic; }
 
 .fondo {
   background-image: url("../img/quiza.png");
